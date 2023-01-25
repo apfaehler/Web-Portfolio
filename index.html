@@ -14,15 +14,57 @@
 <body>
     <header>
         <div class="logo">
-            <img src="photos/bourbon.jpg" alt="Logo">
+            <img src="photos/bourbon.jpg" width="400" height="500" alt="Logo">
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
             <nav class="nav">
-                <ul class="nav__list"></ul>
+                <ul class="nav__list">
+                    <li class="nav__item"> <a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"> <a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"> <a href="#" class="nav__link">About me</a></li>
+                    <li class="nav__item"> <a href="#" class="nav__link">My work</a></li>
+                </ul>
             </nav>
         </div>
     </header>
+    <!--Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi my name is <strong>Anthony Pfaehler</strong> nice to meet you!
+        </h1>
+        <p class="section__subtitle section-subtitle--intro">
+            I'm in pursuit to become a web developer and a software engineer.
+            <img src="photos/headshot.PNG" alt="headshot">
+        </p>
+    </section>
+
+
+    <!--My services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design and Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aliquam voluptatibus accusamus
+                    velit suscipit veritatis corporis dolorum! Et, incidunt. Debitis dicta laudantium distinctio fuga.
+                    Temporibus laudantium delectus sunt dolore unde.</p>
+            </div> <!--close services-->
+            <div class="service">
+                <h3>E-commerce</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut veniam aliquid iusto provident
+                    expedita? Quidem, amet sapiente! Officia, numquam? Ab, ipsa. Est numquam natus explicabo vero
+                    facilis voluptatibus minima eligendi.</p>
+            </div> <!--close services-->
+            <div class="service">
+                <h3>Word Press</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quam vero aut iusto, quis voluptatum
+                    iure. Quasi, laboriosam asperiores similique deserunt ducimus et harum iure magnam exercitationem
+                    rem possimus totam!</p>
+            </div> <!--close services-->
+        </div> <!--close services-->
+        <a href="#work" class="btn">My W ork</a>
+    </section>
 
 </body>
 

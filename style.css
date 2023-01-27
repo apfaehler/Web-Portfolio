@@ -240,18 +240,9 @@ nav {
 }
 
 @media (min-width: 600px) {
-    .about-me {
+    .intro {
         display: grid;
-        grid-template-columns: 1fr 200px;
-    }
+        grid-template-columns: 1fr 300px;
 
-    .section__title--about,
-    .section__subtitle--about {
-        grid-column: 1;
-    }
-
-    .about__me--img {
-        grid-row: 1/-1;
-        grid-column: 2/;
     }
 }

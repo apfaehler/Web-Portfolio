@@ -464,6 +464,7 @@ header {
 
 .footer__link:hover {
     text-decoration: underline;
+    max-width: 100px;
 }
 
 .social-list {

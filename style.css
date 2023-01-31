@@ -455,6 +455,7 @@ header {
 .footer__link {
 
     font-weight: var(--fw-bold);
+    max-width: fit-content;
 }
 
 .footer__link:hover,
@@ -464,7 +465,6 @@ header {
 
 .footer__link:hover {
     text-decoration: underline;
-    max-width: 100px;
 }
 
 .social-list {
